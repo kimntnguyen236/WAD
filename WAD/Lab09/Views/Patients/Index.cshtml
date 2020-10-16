@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Lab09.Models.Patient>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutClient.cshtml";
+    var pageList = (IPagedList)ViewBag.data;
+}
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+<br />
+<p>
+    @Html.ActionLink("Create New", "Create", "Patients")
+</p>
+<h1>Patient List</h1>
+@using (Html.BeginForm("Index", "Patients", FormMethod.Get))
+{
+    <div>
+        <input type="text" name="pname" placeholder="Enter patient name..." />
+        <input type="submit" value="Filter" class="btn-info" />
+    </div>
+    <div>
+        @Html.PagedListPager(pageList, page => Url.Action("Index", new { page }))
+        <partial name="_pvFindAll" />
+        @*@Html.PagedListPager(pageList, page => Url.Action("Index", new { page }))*@
+    </div>
+}
+
+

@@ -1,0 +1,25 @@
+﻿@model Lab07.Models.Computer
+@*tạo 1 thì không có IEnumberable*@
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create new Computer</h2>
+<h3>@ViewBag.Msg</h3>
+<br />
+@using (Html.BeginForm("Create", "Computer", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div>
+        <partial name="_pvCUD" />
+        @*@Html.Partial("_pvCUD");*@
+        <div>
+            @Html.LabelFor(model => model.Photo)
+            @*tên trong tham số create là gì thì id và name như vậy*@
+            <input type="file" id="file" name="file" />
+        </div>
+        <br />
+        <div>
+            <input type="submit" name="submit" value="Submit" class="btn-primary" />
+        </div>
+    </div>
+}

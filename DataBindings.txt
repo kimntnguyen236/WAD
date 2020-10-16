@@ -1,0 +1,4 @@
+DataBindings - Custom binding
+Bind("columnName") hoặc Eval("columnName")
+
+IP local : 127.0.0.1

@@ -1,0 +1,35 @@
+﻿@model Core3.Models.Computer 
+@{
+    ViewData["Title"] = "Details";
+}
+<h2>Computer Details</h2>
+<div>
+    <div>
+        @Html.DisplayNameFor(m => m.ID)
+        @Html.DisplayFor(m => m.ID)
+    </div>
+    <div>
+        @Html.DisplayNameFor(m => m.NAME)
+        @Html.DisplayFor(m => m.NAME)
+    </div>
+    <div>
+        @Html.DisplayNameFor(m => m.DESCRIPTION)
+        @Html.DisplayFor(m => m.DESCRIPTION)
+    </div>
+    <div>
+        @Html.DisplayNameFor(m => m.PRICE)
+        @Html.DisplayFor(m => m.PRICE)
+    </div>
+    <div>
+        @Html.DisplayNameFor(m => m.Quantity)
+        @Html.DisplayFor(m => m.Quantity)
+    </div>
+    <div>
+        @Html.DisplayNameFor(m => m.PHOTO)
+        <img src="~/@Url.Content(Model.PHOTO)" width="100" />
+    </div>
+</div>
+<br />
+<div>
+    @Html.ActionLink("Back to list", "Index", "Computer")
+</div>

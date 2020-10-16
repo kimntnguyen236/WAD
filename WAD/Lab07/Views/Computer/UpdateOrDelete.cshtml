@@ -1,0 +1,32 @@
+﻿@model Lab07.Models.Computer
+@*tạo 1 thì không có IEnumberable*@
+@{
+    ViewData["Title"] = "UpdateOrDelete";
+}
+
+<h2>Update or Delete</h2>
+<h3>@ViewBag.Msg</h3>
+<br />
+@using (Html.BeginForm("UpdateOrDelete", "Computer", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div>
+        <div>
+            @*Ẩn Id đi*@
+            @Html.HiddenFor(model => model.Id)
+        </div>
+        <partial name="_pvCUD" />
+        <div>
+            <img src="~/@Url.Content(Model.Photo)" width="100" />
+        </div>
+        <div>
+            @Html.LabelFor(model => model.Photo)
+            @*tên trong tham số create là gì thì id và name như vậy*@
+            <input type="file" id="file" name="file" />
+        </div>
+        <br />
+        <div>
+            <input type="submit" value="Save" name="Submits" class="btn-warning" />
+            <input type="submit" value="Delete" name="Submits" class="btn-danger" />
+        </div>
+    </div>
+}

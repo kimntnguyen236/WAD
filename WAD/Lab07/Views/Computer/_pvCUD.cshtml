@@ -1,0 +1,22 @@
+﻿@model Lab07.Models.Computer
+<div>
+    @Html.LabelFor(model => model.Name)
+    @Html.EditorFor(model => model.Name)
+    @*nếu có lỗi thì ném lỗi ra*@
+    @Html.ValidationMessageFor(model => model.Name)
+</div>
+<div>
+    @Html.LabelFor(model => model.Description)
+    @Html.EditorFor(model => model.Description)
+    @Html.ValidationMessageFor(model => model.Description)
+</div>
+<div>
+    @Html.LabelFor(model => model.Price)
+    @Html.EditorFor(model => model.Price)
+    @Html.ValidationMessageFor(model => model.Price)
+</div>
+<div>
+    @Html.LabelFor(model => model.Quantity)
+    @Html.EditorFor(model => model.Quantity)
+    @Html.ValidationMessageFor(model => model.Quantity)
+</div>

@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Lab05.Models.Payment>
+@{
+    ViewData["Title"] = "Index";
+}
+<h2>Hệ thống quản lý thanh toán</h2>
+<div>
+    @using (Html.BeginForm()) //@using (Html.BeginForm("Index","Payment",FormMethod.Get))
+
+    // Get lấy dữ liệu từ db
+    {
+        <input type="text" id="pname" name="pname" placeholder="Enter any character..." />
+        <input type="submit" value="Filter" class="bg-info" />
+        <br /> <br />
+    }
+</div>
+<table class="table">
+    <tr>
+        <th>PaymentCode</th>
+        <th>ProjectCode</th>
+        <th>ProjectName</th>
+        <th>Budget</th>
+        <th>Fee</th>
+        <th>EndBalance</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.PaymentCode</td>
+            <td>@item.ProjectCode</td>
+            <td>@item.ProjectName</td>
+            <td>@item.Budget</td>
+            <td>@item.Fee</td>
+            <td>@item.endbalance</td>
+            <td>
+                @Html.ActionLink("Delete", "Delete", new { paymentCode = @item.PaymentCode })
+            </td>
+        </tr>
+    }
+</table>

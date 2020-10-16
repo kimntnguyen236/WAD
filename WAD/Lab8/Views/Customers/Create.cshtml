@@ -1,0 +1,36 @@
+﻿@model Lab8.Models.Customer
+@{
+    ViewData["Title"] = "Create";
+}
+<partial name="_pvMenu" />
+<br />
+<h2>Create new Customer</h2>
+@using (Html.BeginForm())
+{
+    <div>
+        <div>
+            @Html.LabelFor(model => model.CustomerCode)
+            @Html.EditorFor(model => model.CustomerCode)
+            @Html.ValidationMessageFor(model => model.CustomerCode)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.CustomerName)
+            @Html.EditorFor(model => model.CustomerName)
+            @Html.ValidationMessageFor(model => model.CustomerName)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.CustomerAddress)
+            @Html.EditorFor(model => model.CustomerAddress)
+            @Html.ValidationMessageFor(model => model.CustomerAddress)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.PhoneNumber)
+            @Html.EditorFor(model => model.PhoneNumber)
+            @Html.ValidationMessageFor(model => model.PhoneNumber)
+        </div>
+        <br />
+        <div>
+            <input type="submit" value="Create" class="btn-primary" />
+        </div>
+    </div>
+}

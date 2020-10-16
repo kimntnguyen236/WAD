@@ -1,0 +1,63 @@
+﻿@model Homework1.Models.tbNews
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Add News</h1>
+@using (Html.BeginForm())
+{
+    <div>
+        <table class="table">
+            <tr>
+                <th>
+                    <div>
+                        @Html.LabelFor(model => model.NewsId)
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        @Html.EditorFor(model => model.NewsId)
+                        @Html.ValidationMessageFor(model => model.NewsId)
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div>
+                        @Html.LabelFor(model => model.HeadLines)
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        @Html.EditorFor(model => model.HeadLines)
+                        @Html.ValidationMessageFor(model => model.HeadLines)
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div>
+                        @Html.LabelFor(model => model.ContentOfNews)
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        @Html.EditorFor(model => model.ContentOfNews)
+                        @Html.ValidationMessageFor(model => model.ContentOfNews)
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div>
+                        <input type="submit" value="Submit" class="btn-primary" />
+                    </div>
+                </th>
+                <th>
+                </th>
+            </tr>
+        </table>
+        <p>@Html.ActionLink("Back", "Admin", "tbNews")</p>
+    </div>
+}
+

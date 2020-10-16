@@ -1,0 +1,21 @@
+﻿@model Homework2.Models.tbPeople
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login Page</h1>
+@using (Html.BeginForm())
+{
+    <div>
+        <h3 style="color:red">@ViewBag.Msg</h3>
+        <div>
+            <input type="text" name="username" placeholder="Enter username..." />
+            <br /> <br />
+            <input type="text" name="password" placeholder="Enter password..." />
+            <br /> <br />
+            <input type="submit" value="Login" class="btn-primary" />
+            <input type="reset" value="Reset" class="btn-danger" />
+        </div>
+    </div>
+}
+

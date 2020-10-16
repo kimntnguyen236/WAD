@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Lab06.Models.Account>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Account List</h2>
+<table class="table">
+    <tr>
+        <th>Account Name</th>
+        <th>Address</th>
+        <th>Balance</th>
+        <th>Role</th>
+        <th>Selected</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.AccountName</td>
+            <td>@item.Address</td>
+            <td>@item.Balance</td>
+            <td>@item.IsAdmin</td>
+            <td>
+                <input type="checkbox" />
+            </td>
+        </tr>
+    }
+    <tr>
+        <td><input type="button" id="Add" value="Add New" /></td>
+        <td></td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+            <input type="button" id="Edit" value="Edit" /> &nbsp; &nbsp;
+            <input type="submit" id="Delete" value="Delete" />
+        </td>
+    </tr>
+
+</table>
+

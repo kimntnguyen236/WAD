@@ -1,0 +1,28 @@
+﻿@model Lab06.Models.Account
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<h2>Profile Details</h2>
+<div>
+    <div>
+        <label>Account Code: </label>
+        @Html.DisplayFor(model => model.AccountCode)
+    </div>
+    <div>
+        <label>Account Name: </label>
+        @Html.DisplayFor(model => model.AccountName)
+    </div>
+    <div>
+        <label>Address: </label>
+        @Html.DisplayFor(model => model.Address)
+    </div>
+    <div>
+        <label>Balance: </label>
+        @Html.DisplayFor(model => model.Balance)
+    </div>
+    <div>
+        <label>Role: </label>
+        @Html.DisplayFor(model => model.IsAdmin)
+    </div>
+</div>

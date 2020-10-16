@@ -1,0 +1,49 @@
+﻿@model Lab06.Models.Account 
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create new account</h2>
+<p>
+    <h3>@ViewBag.Msg</h3>
+</p>
+<br/>
+@using (Html.BeginForm())
+{
+<div>
+    <div>
+        @Html.LabelFor(model => model.AccountCode)
+        @Html.EditorFor(model => model.AccountCode)
+        @Html.ValidationMessageFor(model => model.AccountCode)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.AccountName)
+        @Html.EditorFor(model => model.AccountName)
+        @Html.ValidationMessageFor(model => model.AccountName)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.PinCode)
+        @Html.EditorFor(model => model.PinCode)
+        @Html.ValidationMessageFor(model => model.PinCode)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.Address)
+        @Html.EditorFor(model => model.Address)
+        @Html.ValidationMessageFor(model => model.Address)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.Balance)
+        @Html.EditorFor(model => model.Balance)
+        @Html.ValidationMessageFor(model => model.Balance)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.IsAdmin)
+        @Html.EditorFor(model => model.IsAdmin)
+        @Html.ValidationMessageFor(model => model.IsAdmin)
+    </div>
+    <br />
+    <div>
+        <input type="submit" value="Create" class="btn-primary" />
+    </div>
+</div>
+}

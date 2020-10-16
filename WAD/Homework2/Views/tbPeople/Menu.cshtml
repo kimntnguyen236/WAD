@@ -1,0 +1,13 @@
+﻿@model Homework2.Models.tbPeople
+@{
+    ViewData["Title"] = "Menu";
+}
+
+<h1 style="color:blue">Hello, @ViewBag.user</h1>
+<br />
+<br />
+<p>@Html.ActionLink("Show all customers", "Index", "tbPeople", new { user = @ViewBag.user })</p>
+
+<p>@Html.ActionLink("Remove customer", "Remove", "tbPeople", new { name = @ViewBag.user })</p>
+
+

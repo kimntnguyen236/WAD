@@ -1,0 +1,2 @@
+thuộc tính - ViewBag
+key - ViewData

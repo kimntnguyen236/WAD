@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Homework2.Models.tbPeople>
+@{
+    ViewData["Title"] = "Remove";
+    int count = 1;
+}
+
+<table class="table">
+    <tr>
+        <th>No.</th>
+        <th>Username</th>
+        <th>Balance</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        //moi vong lap in ra 1 hang
+        <tr>
+            <td>@(count++)</td>
+            <td>@item.Username</td>
+            <td>@item.Balance</td>
+            <td>
+                @Html.ActionLink("Removed", "Removed", new { username = @item.Username }, new { @class = "btn btn-primary" })
+            </td>
+        </tr>
+    }
+
+</table>

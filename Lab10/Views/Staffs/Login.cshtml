@@ -1,0 +1,37 @@
+﻿@model Lab10.Models.Staff
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Login Staff</h2>
+
+<hr />
+
+<div>
+    @Html.ActionLink("Create staff","Create","Staffs")
+</div>
+<div>
+    @using (Html.BeginForm("Login", "Staffs", FormMethod.Post))
+    { 
+    <div>
+        <div>
+            @Html.LabelFor(model => model.StaffName)
+            @Html.EditorFor(model => model.StaffName)
+            @Html.ValidationMessageFor(model => model.StaffName)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.Password)
+            @Html.EditorFor(model => model.Password)
+            @Html.ValidationMessageFor(model => model.Password)
+        </div>
+        <br/>
+        <div>
+            <input type="submit" value="Sign in" class="btn-info"/>
+        </div>
+    </div>
+    }
+</div>
+<div>
+    <h3 style="color:red">@ViewBag.Msg</h3>
+</div>

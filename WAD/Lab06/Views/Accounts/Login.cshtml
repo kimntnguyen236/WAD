@@ -1,0 +1,19 @@
+﻿@model Lab06.Models.Account
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Login Account</h2>
+@using (Html.BeginForm())
+{
+    <div>
+        <h3 style="color:red">@ViewBag.Msg</h3>
+        <div>
+            <input type="text" name="accCode" placeholder="Enter account code..." />
+            <br /> <br />
+            <input type="text" name="pinCode" placeholder="Enter pin code..." />
+            <br /> <br />
+            <input type="submit" value="Sign in" class="btn-primary" />
+        </div>
+    </div>
+}

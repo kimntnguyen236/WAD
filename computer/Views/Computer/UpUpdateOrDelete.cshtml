@@ -1,0 +1,49 @@
+﻿@model Core3.Models.Computer
+@{
+    ViewData["Title"] = "Update or Delete";
+}
+<h2>Create new Computer</h2>
+<h4>@ViewBag.Msg</h4>
+
+@using (Html.BeginForm("UpUpdateOrDelete", "Computer", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+<div>
+    <div>
+        @Html.HiddenFor(m => m.ID)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.NAME)
+        @Html.EditorFor(m => m.NAME)
+        @Html.ValidationMessageFor(m => m.NAME)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.DESCRIPTION)
+        @Html.EditorFor(m => m.DESCRIPTION)
+        @Html.ValidationMessageFor(m => m.DESCRIPTION)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.PRICE)
+        @Html.EditorFor(m => m.PRICE)
+        @Html.ValidationMessageFor(m => m.PRICE)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.Quantity)
+        @Html.EditorFor(m => m.Quantity)
+        @Html.ValidationMessageFor(m => m.Quantity)
+    </div>
+    <div>
+        @Html.DisplayNameFor(m => m.PHOTO)
+        <img src="~/@Url.Content(Model.PHOTO)" width="100" />
+    </div>
+    <div>
+        @Html.LabelFor(m => m.PHOTO)
+        <input type="file" name="file" />
+    </div>
+
+    <br />
+    <div>
+        <input type="submit" value="Update" name="Submits" class="btn-success" />
+        <input type="submit" value="Delete" name="Submits" class="btn-danger" />
+    </div>
+</div>
+}

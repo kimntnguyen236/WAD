@@ -1,0 +1,43 @@
+﻿@model Lab02.Models.Movie
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Movie Update</h2>
+<br />
+<h4>
+    @ViewBag.Msg
+</h4>
+@using (Html.BeginForm())
+{
+    <div>
+        <div>
+            @Html.HiddenFor(model => model.Id)
+        </div>
+        <div>
+            @*biểu thức Lamda nếu có For*@
+            @Html.LabelFor(model => model.MovieName)
+            @Html.EditorFor(model => model.MovieName)
+            @Html.ValidationMessageFor(model => model.MovieName)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.Genre)
+            @Html.EditorFor(model => model.Genre)
+            @Html.ValidationMessageFor(model => model.Genre)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.Director)
+            @Html.EditorFor(model => model.Director)
+            @Html.ValidationMessageFor(model => model.Director)
+        </div>
+        <br />
+        <div>
+            <input type="submit" value="Update" class="btn-warning" />
+        </div>
+    </div>
+}
+<br />
+<div>
+    @Html.ActionLink("Back To List", "Index", "Movie")
+</div>
+

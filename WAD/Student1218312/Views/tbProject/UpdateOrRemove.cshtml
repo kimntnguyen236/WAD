@@ -1,0 +1,48 @@
+﻿@model Student1218312.Models.tbProject
+@{
+    ViewData["Title"] = "UpdateOrRemove";
+}
+
+<h2>Update or Remove</h2>
+<h3>@ViewBag.Msg</h3>
+<br />
+@using (Html.BeginForm("UpdateOrRemove", "tbProject", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div>
+        <div>
+            @*Ẩn ProjectCode đi*@
+            @Html.HiddenFor(model => model.ProjectCode)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.ClientName)
+            @Html.EditorFor(model => model.ClientName)
+            @Html.ValidationMessageFor(model => model.ClientName)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.ProjectName)
+            @Html.EditorFor(model => model.ProjectName)
+            @Html.ValidationMessageFor(model => model.ProjectName)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.StartDate)
+            @Html.EditorFor(model => model.StartDate)
+            @Html.ValidationMessageFor(model => model.StartDate)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.EndDate)
+            @Html.EditorFor(model => model.EndDate)
+            @Html.ValidationMessageFor(model => model.EndDate)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.Cost)
+            @Html.EditorFor(model => model.Cost)
+            @Html.ValidationMessageFor(model => model.Cost)
+        </div>
+        <br />
+        <div>
+            <input type="submit" value="Update" name="Submits" class="btn-warning" />
+            <input type="submit" value="Remove" name="Submits" class="btn-danger" />
+        </div>
+    </div>
+}
+

@@ -1,0 +1,43 @@
+﻿@model Student1218312.Models.tbProject
+@{
+    ViewData["Title"] = "CreateNewProject";
+}
+
+<h2>Create new project</h2>
+<h3>@ViewBag.Msg</h3>
+<br />
+@using (Html.BeginForm("CreateNewProject", "tbProject", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div>
+        <div>
+            @Html.LabelFor(model => model.ClientName)
+            @Html.EditorFor(model => model.ClientName)
+            @Html.ValidationMessageFor(model => model.ClientName)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.ProjectName)
+            @Html.EditorFor(model => model.ProjectName)
+            @Html.ValidationMessageFor(model => model.ProjectName)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.StartDate)
+            @Html.EditorFor(model => model.StartDate)
+            @Html.ValidationMessageFor(model => model.StartDate)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.EndDate)
+            @Html.EditorFor(model => model.EndDate)
+            @Html.ValidationMessageFor(model => model.EndDate)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.Cost)
+            @Html.EditorFor(model => model.Cost)
+            @Html.ValidationMessageFor(model => model.Cost)
+        </div>
+        <br />
+        <div>
+            <input type="submit" name="submit" value="Create" class="btn-primary" />
+        </div>
+    </div>
+}
+

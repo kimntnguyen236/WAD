@@ -1,0 +1,158 @@
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\appsettings.json
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Lab5.exe
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Lab5.deps.json
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Lab5.runtimeconfig.json
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Lab5.runtimeconfig.dev.json
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Lab5.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Lab5.pdb
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Lab5.Views.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Lab5.Views.pdb
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.AssemblyInfoInputs.cache
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.AssemblyInfo.cs
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.csproj.CoreCompileInputs.cache
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.MvcApplicationPartsAssemblyInfo.cache
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.RazorAssemblyInfo.cache
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.RazorAssemblyInfo.cs
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.TagHelpers.input.cache
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.TagHelpers.output.cache
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.RazorCoreGenerate.cache
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\Payment\Create.cshtml.g.cs
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\Payment\Edit.cshtml.g.cs
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\Payment\Index.cshtml.g.cs
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.RazorTargetAssemblyInfo.cache
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.RazorTargetAssemblyInfo.cs
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.Views.pdb
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.csproj.CopyComplete
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\staticwebassets\Lab5.StaticWebAssets.Manifest.cache
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\staticwebassets\Lab5.StaticWebAssets.xml
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.dll
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.pdb
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.genruntimeconfig.cache
+C:\FPT Aptech\Sem3\WAD\Excercise\WAD-Solution\Lab5\obj\Debug\netcoreapp3.1\Lab5.csprojAssemblyReference.cache
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\appsettings.json
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Lab5.exe
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Lab5.deps.json
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Lab5.runtimeconfig.json
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Lab5.runtimeconfig.dev.json
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Lab5.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Lab5.pdb
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Lab5.Views.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Lab5.Views.pdb
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\AptechSem3\WAD\Lab5\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.csprojAssemblyReference.cache
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.AssemblyInfoInputs.cache
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.AssemblyInfo.cs
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.csproj.CoreCompileInputs.cache
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.MvcApplicationPartsAssemblyInfo.cache
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.RazorAssemblyInfo.cache
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.RazorAssemblyInfo.cs
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.TagHelpers.input.cache
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.TagHelpers.output.cache
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.RazorCoreGenerate.cache
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\Payment\Create.cshtml.g.cs
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\Payment\Edit.cshtml.g.cs
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\Payment\Index.cshtml.g.cs
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.RazorTargetAssemblyInfo.cache
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.RazorTargetAssemblyInfo.cs
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.Views.pdb
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.csproj.CopyComplete
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\staticwebassets\Lab5.StaticWebAssets.Manifest.cache
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\staticwebassets\Lab5.StaticWebAssets.xml
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.dll
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.pdb
+D:\AptechSem3\WAD\Lab5\obj\Debug\netcoreapp3.1\Lab5.genruntimeconfig.cache

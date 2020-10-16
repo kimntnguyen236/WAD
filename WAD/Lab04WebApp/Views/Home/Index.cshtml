@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Lab04WebApp.Models.Student>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Student List</h2>
+<table class="table">
+    <tr>
+        <th>Student ID</th>
+        <th>Student Name</th>
+        <th>Student Address</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+
+        <td>@item.Id</td>
+        <td>@item.Name</td>
+        <td>@item.Address</td>
+        </tr>
+    }
+</table>

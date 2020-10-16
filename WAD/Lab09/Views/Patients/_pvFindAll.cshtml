@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Lab09.Models.Patient>
+<table class="table">
+    <tr>
+        <th>PatientCode</th>
+        <th>PatientName</th>
+        <th>JoinDate</th>
+        <th>Address</th>
+        <th>Description</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var item in ViewBag.data)
+    @*bởi vì return View nên sử dụng Model*@
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.PatientName</td>
+            <td>@item.JoinDate</td>
+            <td>@item.Address</td>
+            <td>@item.Description</td>
+            <td>
+                @Html.ActionLink("Details", "UpdateOrDelete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+</table>

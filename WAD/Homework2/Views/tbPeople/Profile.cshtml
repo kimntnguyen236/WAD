@@ -1,0 +1,16 @@
+﻿@model Homework2.Models.tbPeople
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<h1>Hello, @ViewBag.user</h1>
+<div>
+    <div>
+        @Html.DisplayNameFor(model => model.Username)
+        @Html.DisplayFor(model => model.Username)
+    </div>
+    <div>
+        @Html.DisplayNameFor(model => model.Balance)
+        @Html.DisplayFor(model => model.Balance)
+    </div>
+</div>

@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Lab8.Models.Customer>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<partial name="_pvMenu"/>
+<br/>
+<h2>Customers List</h2>
+<table class="table">
+    <tr>
+        <th>CustomerCode</th>
+        <th>CustomerName</th>
+        <th>CustomerAddress</th>
+        <th>CustomerPhone</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>@item.CustomerCode</td>
+        <td>@item.CustomerName</td>
+        <td>@item.CustomerAddress</td>
+        <td>@item.PhoneNumber</td>
+    </tr>
+    }
+</table>

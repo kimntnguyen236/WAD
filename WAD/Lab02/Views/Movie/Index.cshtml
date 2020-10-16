@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Lab02.Models.Movie>
+@{
+    ViewBag.Title = "Index";
+}
+<br />
+<div>
+    @Html.ActionLink("Create new", "Create", "Movie")
+</div>
+<br />
+<h2>Movie List</h2>
+<br />
+<table class="table">
+    <tr>
+        <th>Movie ID</th>
+        <th>Movie Name</th>
+        <th>Movie Genre</th>
+        <th>Movie Director</th>
+        <th>Ations</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.MovieName</td>
+            <td>@item.Genre</td>
+            <td>@item.Director</td>
+            <td>
+                @*ActionLink ("Ten tu dat","Lay ten tu MovieController","Controller Name")
+        id lấy từ bên MovieController*@
+                @Html.ActionLink("Remove", "Delete", "Movie", new { id = item.Id }, new { onclick = "return confirm ('Are you sure?')" }) ||
+                @Html.ActionLink("Update", "Edit", new { id = item.Id })
+            </td>
+        </tr>
+    }
+</table>

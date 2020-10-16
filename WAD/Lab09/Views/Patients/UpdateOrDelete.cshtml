@@ -1,0 +1,47 @@
+﻿@model Lab09.Models.Patient
+@{
+    ViewData["Title"] = "UpdateOrDelete";
+    Layout = "~/Views/Shared/_LayoutClient.cshtml";
+}
+
+<h1>Update or Delete</h1>
+@using (Html.BeginForm())
+{
+    <div>
+        <div>
+            @Html.HiddenFor(p => p.Id)
+        </div>
+        <div>
+            @Html.LabelFor(p => p.PatientName)
+            @Html.EditorFor(p => p.PatientName)
+            @Html.ValidationMessageFor(p => p.PatientName)
+        </div>
+        <div>
+            @Html.LabelFor(p => p.JoinDate)
+            @Html.EditorFor(p => p.JoinDate)
+            @Html.ValidationMessageFor(p => p.JoinDate)
+        </div>
+        <div>
+            @Html.LabelFor(p => p.Address)
+            @Html.EditorFor(p => p.Address)
+            @Html.ValidationMessageFor(p => p.Address)
+        </div>
+        <div>
+            @Html.LabelFor(p => p.Description)
+            @Html.EditorFor(p => p.Description)
+            @Html.ValidationMessageFor(p => p.Description)
+        </div>
+        <br />
+        <div>
+            <input type="submit" value="Save" name="submit" class="btn-warning" />
+            <input type="submit" value="Remove" name="submit" class="btn-danger" />
+        </div>
+    </div>
+    <div>
+        <h3 style="color:red">@ViewBag.Msg</h3>
+    </div>
+}
+
+
+
+

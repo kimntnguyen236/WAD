@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Lab07.Models.Computer>
+@{
+    ViewData["Title"] = "Index";
+}
+<br />
+<p>
+    @Html.ActionLink("Create New","Create","Computer")
+</p>
+
+@using (Html.BeginForm())
+{
+<input type="text" name="min" placeholder="Enter min price..." />
+<input type="text" name="max" placeholder="Enter max price..." />
+<input type="submit" name="name" value="Filter" class="btn-success" />
+}
+
+<h2>List of Computer</h2>
+
+<table class="table">
+    <tr>
+        <th>ComputerName</th>
+        <th>Description</th>
+        <th>UnitPrice</th>
+        <th>Quantity</th>
+        <th>Photo</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+            <td>@item.Price</td>
+            <td>@item.Quantity</td>
+            <td>
+                <img src="@item.Photo" width="90" />
+            </td>
+            <td>
+                @Html.ActionLink("View Details", "Details", new { id = item.Id }) ||
+                @Html.ActionLink("Update Or Delete", "UpdateOrDelete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+</table>

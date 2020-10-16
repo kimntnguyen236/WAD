@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Homework1.Models.tbNews>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 style="color:blue;">Show All News</h1>
+<table class="table">
+    <tr>
+        <th>NewsID</th>
+        <th>HeadLines</th>
+        <th>ContentOfNews</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.NewsId</td>
+            <td>@item.HeadLines</td>
+            <td>@item.ContentOfNews</td>
+        </tr>
+    }
+</table>
+<p>@Html.ActionLink("Back", "Admin", "tbNews")</p>
+

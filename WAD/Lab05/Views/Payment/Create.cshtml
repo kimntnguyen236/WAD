@@ -1,0 +1,44 @@
+﻿@model Lab05.Models.Payment
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Tạo thanh toán</h2>
+<p>
+    <h3>@ViewBag.Msg</h3>
+</p>
+<br />
+@using (Html.BeginForm())
+{
+    <div>
+        <div>
+            @Html.LabelFor(model => model.PaymentCode)
+            @Html.EditorFor(model => model.PaymentCode)
+            @Html.ValidationMessageFor(model => model.PaymentCode)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.ProjectCode)
+            @Html.EditorFor(model => model.ProjectCode)
+            @Html.ValidationMessageFor(model => model.ProjectCode)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.ProjectName)
+            @Html.EditorFor(model => model.ProjectName)
+            @Html.ValidationMessageFor(model => model.ProjectName)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.Budget)
+            @Html.EditorFor(model => model.Budget)
+            @Html.ValidationMessageFor(model => model.Budget)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.Fee)
+            @Html.EditorFor(model => model.Fee)
+            @Html.ValidationMessageFor(model => model.Fee)
+        </div>
+        <br/>
+        <div>
+            <input type="submit" value="Create" class="btn-primary"/>
+        </div>
+    </div>
+}

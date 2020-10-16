@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model IEnumerable<Lab5.Models.Payment>
+@{
+    ViewData["Title"] = "Index";
+}
+<div>
+    @Html.ActionLink("Create New", "Create", "Payment")
+</div>
+<h2> He thong quan ly thanh toan</h2>
+<div>
+    @using (Html.BeginForm("Index","Payment",FormMethod.Get))
+    {
+        <input type="text" id="pname" name="pname" placeholder=" Enter any character..."/>
+        <input type="submit" value="Filter" class="bg-info"/>
+    }
+</div>
+
+<table class="table">
+    <tr>
+        <th>PaymentCode</th>
+        <th>ProjectCode</th>
+        <th>ProjectName</th>
+        <th>Budget</th>
+        <th>Fee</th>
+        <th>EndBalance</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        //moi vong lap in ra 1 hang
+<tr>
+    <td>@item.PaymentCode</td>
+    <td>@item.ProjectCode</td>
+    <td>@item.ProjectName</td>
+    <td>@item.Budget</td>
+    <td>@item.Fee</td>
+    <td>@item.EndBalance</td>
+    <td>
+        @Html.ActionLink("Delete", "Delete", new { paymentCode = @item.PaymentCode })||
+        @Html.ActionLink("Edit", "Edit", new { paymentCode = @item.PaymentCode })
+    </td>
+</tr>
+        }
+
+</table>

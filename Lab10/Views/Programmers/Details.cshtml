@@ -1,0 +1,37 @@
+﻿@model Lab10.Models.Programmer
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div>
+    <h3>Welcome @ViewBag.name </h3>
+</div>
+<h2>Programmer Details</h2>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProgrammerName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ProgrammerName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Salary)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Salary)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ProgrammerCode">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

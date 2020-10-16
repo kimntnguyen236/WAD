@@ -1,0 +1,49 @@
+﻿@model Homework3.Models.Items
+@{
+    ViewData["Title"] = "Listitem";
+}
+@using (Html.BeginForm("Create", "Items", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div>
+        <div>
+            @Html.LabelFor(m => m.ItemCode)
+            @Html.EditorFor(m => m.ItemCode)
+            @Html.ValidationMessageFor(m => m.ItemCode)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.ItemName)
+            @Html.EditorFor(m => m.ItemName)
+            @Html.ValidationMessageFor(m => m.ItemName)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Price)
+            @Html.EditorFor(m => m.Price)
+            @Html.ValidationMessageFor(m => m.Price)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Image)
+            <input type="file" name="file" />
+        </div>
+        <br />
+        <div>
+            <button type="submit" value="Create" class="btn-success">Add</button>
+        </div>
+    </div>
+}
+<table class="table">
+    <tr>
+        <th>Item Code</th>
+        <th>Item Name</th>
+        <th>Image</th>
+        <th>Price</th>
+    </tr>
+    @foreach (var item in @ViewBag.Items)
+    {
+        <tr>
+            <td>@item.ItemCode</td>
+            <td>@item.ItemName</td>
+            <td><img src="~/images/@item.Image" width="90" /></td>
+            <td>@item.Price</td>
+        </tr>
+    }
+</table>

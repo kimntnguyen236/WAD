@@ -1,0 +1,42 @@
+﻿@model Lab10.Models.Programmer
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+@using Microsoft.AspNetCore.Http
+<div>
+    <h3>
+        Welcome @ViewBag.name
+    </h3>
+</div>
+<h1>Details</h1>
+
+<div>
+    <h4>Programmer</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ProgrammerName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ProgrammerName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Salary)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Salary)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ProgrammerCode">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

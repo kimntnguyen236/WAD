@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Lab8.Models.CustomerOrder>
+@{
+    ViewData["Title"] = "OrderList";
+}
+
+<h2>Order List</h2>
+
+<table class="table">
+    <tr>
+        <th>OrderID</th>
+        <th>OrderDate</th>
+        <th>CustomerName</th>
+        <th>CustomerAddress</th>
+        <th>ProductName</th>
+        <th>UnitPrice</th>
+        <th>Quantity</th>
+        <th>Total</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>@item.Order.Id</td>
+        <td>@item.Order.OrderDate</td>
+        <td>@item.Customer.CustomerName</td>
+        <td>@item.Customer.CustomerAddress</td>
+        <td>@item.Order.ProductName</td>
+        <td>@item.Order.Price</td>
+        <td>@item.Order.Quantity</td>
+        <td>@item.Order.SubTotal</td>
+    </tr>
+    }
+</table>
